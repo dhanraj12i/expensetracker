@@ -43,6 +43,20 @@ const TableView: FC<TableViewProps> = ({ tableData, setRow }) => {
     </div>
   );
 
+  const CustomFooter = () => {
+    const totalAmount = tableData.reduce(
+      (total, item) => total + (parseInt(item.price) || 0),
+      0
+    );
+    return (
+      <div className="flex justify-end p-2 bg-gray-100">
+        <span className="font-bold">
+          Total Amount: Rs {totalAmount.toFixed(2)}
+        </span>
+      </div>
+    );
+  };
+
   return (
     <div className="relative h-96 w-full">
       {loading ? (
@@ -66,8 +80,14 @@ const TableView: FC<TableViewProps> = ({ tableData, setRow }) => {
           autoHeight={false}
           scrollbarSize={10}
           loading={loading}
+          slots={{
+            footer: CustomFooter,
+          }}
         />
       )}
+      <>
+        <CustomFooter />
+      </>
     </div>
   );
 };
