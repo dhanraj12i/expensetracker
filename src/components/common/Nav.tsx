@@ -11,10 +11,10 @@ const Nav = () => {
           {/* Menu Items */}
           <div className="space-x-4">
             <a href="/" className="text-gray-300 hover:text-white">
-              Home
+              Dashborad
             </a>
             <a href="/expenses" className="text-gray-300 hover:text-white">
-              Expenses
+              Report
             </a>
             <a href="/about" className="text-gray-300 hover:text-white">
               About
