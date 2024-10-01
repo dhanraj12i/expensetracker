@@ -31,37 +31,19 @@ const AboutUs = () => {
           <h3 className="text-xl font-semibold text-gray-800 mb-4">
             Meet the Team
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6">
+          <div className="flex justify-center items-center">
+            <div className="bg-white rounded-lg shadow-md p-6 w-[600px]">
               <h4 className="text-lg font-semibold text-gray-800 mb-2">
-                John Doe
+                Dhanraj Patil
               </h4>
-              <p className="text-gray-600">Founder & CEO</p>
+              <p className="text-gray-600">Lead Developer, UX/UI Designer</p>
               <p className="text-gray-700 mt-2">
-                John is a financial expert with over 10 years of experience in
-                helping individuals and businesses manage their finances.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h4 className="text-lg font-semibold text-gray-800 mb-2">
-                Jane Smith
-              </h4>
-              <p className="text-gray-600">Lead Developer</p>
-              <p className="text-gray-700 mt-2">
-                Jane is a skilled software developer who specializes in building
-                intuitive and user-friendly financial applications.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h4 className="text-lg font-semibold text-gray-800 mb-2">
-                Michael Brown
-              </h4>
-              <p className="text-gray-600">UX/UI Designer</p>
-              <p className="text-gray-700 mt-2">
-                Michael is passionate about creating visually appealing and
-                easy-to-use interfaces that enhance the user experience.
+                Dhanraj Patil is a multifaceted professional with expertise in
+                finance, software development, and design. As the Founder & CEO,
+                he leads the company’s strategic vision. He also serves as the
+                Lead Developer, specializing in building robust financial
+                platforms, and as a UX/UI Designer, crafting user-friendly and
+                visually appealing interfaces.
               </p>
             </div>
           </div>
