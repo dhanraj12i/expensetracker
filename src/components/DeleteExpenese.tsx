@@ -3,7 +3,7 @@ import { useExpenseContext } from "../state/Expense";
 import { useSnackbar } from "notistack";
 import { Expense } from "../expense";
 import Button from "./shared/Button";
-import DialogWrapper from "./common/DialogWrapper";
+import DialogWrapper from "./shared/DialogWrapper";
 import { deleteExpense } from "../services/expenseServices";
 
 interface DeleteExpenseProps {

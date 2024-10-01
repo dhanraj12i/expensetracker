@@ -48,6 +48,20 @@
       "price": "60",
       "paymentMode": "UPI",
       "date": "2024-10-01"
+    },
+    {
+      "id": "3cb0",
+      "itemName": "charger",
+      "price": "1200",
+      "paymentMode": "UPI",
+      "date": "2024-09-04"
+    },
+    {
+      "id": "4fe4",
+      "itemName": "Mobile Case",
+      "price": "200",
+      "paymentMode": "UPI",
+      "date": "2024-09-08"
     }
   ],
   "categories": [

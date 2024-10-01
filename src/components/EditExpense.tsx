@@ -1,5 +1,5 @@
-import React, { FC, useEffect, useState } from "react";
-import DialogWrapper from "./common/DialogWrapper";
+import React, { FC, useState } from "react";
+import DialogWrapper from "./shared/DialogWrapper";
 import AddEditForm from "./AddEditForm";
 import Button from "./shared/Button";
 import { Expense } from "../expense";

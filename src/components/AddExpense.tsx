@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DialogWrapper from "./common/DialogWrapper";
+import DialogWrapper from "./shared/DialogWrapper";
 import AddEditForm from "./AddEditForm";
 import Button from "./shared/Button";
 import { Expense } from "../expense";
