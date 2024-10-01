@@ -10,9 +10,10 @@ export const columns = ({ handleConfirmChange }: ColumnsProps) => {
     {
       field: "",
       headerName: "",
-      width: 10,
+      width: 70,
       editable: true,
       sortable: false,
+      resizable: false,
       renderCell: (params) => (
         <Checkbox
           checked={params.row.confirmed}
@@ -23,31 +24,35 @@ export const columns = ({ handleConfirmChange }: ColumnsProps) => {
     {
       field: "itemName",
       headerName: "Item Name",
-      width: 150,
+      width: 200,
       editable: true,
       sortable: true,
+      resizable: false,
     },
     {
       field: "price",
       headerName: "Price",
       type: "number",
-      width: 150,
+      width: 200,
       editable: true,
       sortable: true,
+      resizable: false,
     },
     {
       field: "paymentMode",
       headerName: "Payment Mode",
-      width: 150,
+      width: 180,
       editable: true,
       sortable: true,
+      resizable: false,
     },
     {
       field: "date",
       headerName: "Date",
-      width: 150,
+      width: 200,
       editable: true,
       sortable: true,
+      resizable: false,
     },
   ];
 

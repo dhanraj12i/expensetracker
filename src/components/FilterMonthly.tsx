@@ -35,7 +35,7 @@ const FilterMonthly: FC<FilterMonthlyProps> = ({
       </label>
       <select
         id="monthlyFilter"
-        className="border border-gray-300 rounded-md p-2 ml-2"
+        className="border border-gray-300 rounded-md p-2 ml-2 w-[200px]"
         value={selectedMonth}
         onChange={handleMonthChange}
       >

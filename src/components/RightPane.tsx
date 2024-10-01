@@ -58,9 +58,7 @@ const RightPane = () => {
           <DeleteExpenese rowData={selectedRows} />
         </div>
       </div>
-      {filteredData?.length > 0 && (
-        <TableView tableData={filteredData} setRow={setSelectedRows} />
-      )}
+      <TableView tableData={filteredData} setRow={setSelectedRows} />
     </div>
   );
 };
