@@ -58,36 +58,23 @@ const TableView: FC<TableViewProps> = ({ tableData, setRow }) => {
   };
 
   return (
-    <div className="relative h-96 w-full">
+    <div className="relative h-80 w-full">
       {loading ? (
         <CustomLoadingOverlay />
       ) : (
         <DataGrid
           rows={tableData}
           columns={columns({ handleConfirmChange })}
-          initialState={{
-            pagination: {
-              paginationModel: {
-                pageSize: 5,
-              },
-            },
-          }}
-          pageSizeOptions={[5]}
           disableColumnMenu
           disableColumnFilter
           disableColumnSelector
           hideFooter
           autoHeight={false}
-          scrollbarSize={10}
+          scrollbarSize={8}
           loading={loading}
-          slots={{
-            footer: CustomFooter,
-          }}
         />
       )}
-      <>
-        <CustomFooter />
-      </>
+      <CustomFooter />
     </div>
   );
 };

@@ -41,6 +41,7 @@ const RightPane = () => {
 
   useEffect(() => {
     loadData();
+    setSelectedRows([]);
   }, [loadData, refetch]);
 
   return (

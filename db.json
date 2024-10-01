@@ -1,20 +1,6 @@
 {
   "expenses": [
     {
-      "id": "3c4d",
-      "itemName": "Electricity Bill",
-      "price": "1500",
-      "paymentMode": "Net Banking",
-      "date": "2024-09-25"
-    },
-    {
-      "id": "4d5e",
-      "itemName": "Gym Membership",
-      "price": "2500",
-      "paymentMode": "Debit Card",
-      "date": "2024-08-10"
-    },
-    {
       "id": "6f7g",
       "itemName": "Movie Tickets",
       "price": "600",
@@ -62,6 +48,13 @@
       "price": "200",
       "paymentMode": "UPI",
       "date": "2024-09-08"
+    },
+    {
+      "id": "b5e4",
+      "itemName": "pasta",
+      "price": "272",
+      "paymentMode": "UPI",
+      "date": "2024-07-24"
     }
   ],
   "categories": [
